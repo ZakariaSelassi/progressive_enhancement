@@ -8,16 +8,33 @@ body {
     background-size: cover;
     color: white;
     background-position: bottom right;
+    font-size: 20px;
 }
 
 .good {
-    text-transform: capitalize;
+    text-transform: uppercase;
+    font-weight: bold;
     color: green;
 }
 
+table,
+th,
+td {
+    border: 1px solid white;
+}
+
+tr:nth-child(odd) {
+    background: grey
+}
+
+tr:nth-child(even) {
+    background: white
+}
+
 .bad {
-    text-transform: capitalize;
     color: red;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 header>h1 {
