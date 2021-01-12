@@ -9,12 +9,28 @@ body {
     color: white;
     background-position: bottom right;
     font-size: 20px;
+    font-family: 'Yusei Magic', sans-serif;
 }
 
 .good {
     text-transform: uppercase;
     font-weight: bold;
     color: green;
+}
+
+aside {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 1px solid yellow
+}
+
+.items-img {
+    float: left;
+}
+
+p:first-of-type {
+    font-weight: bold;
 }
 
 table,
@@ -29,6 +45,27 @@ tr:nth-child(odd) {
 
 tr:nth-child(even) {
     background: white
+}
+
+ul>li:first-of-type {
+    background-image: url('img/bien.png');
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+
+ul>li:nth-child(2) {
+    background-image: url('img/mal.png');
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+
+ul>li:nth-child(3) {
+    background-image: url('img/chat.png');
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    padding-top: 25px;
 }
 
 .bad {
